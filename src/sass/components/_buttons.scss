@@ -1,0 +1,24 @@
+// button here
+.btn {
+  padding: 10px 25px;
+}
+
+.btn-main {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(119,9,121,1) 34%, rgba(196,52,154,0.9532855378479517) 64%, rgba(0,212,255,1) 100%);
+  color: white;
+  padding: 14px 50px;
+  text-transform: uppercase;
+}
+
+.btn-outline-white {
+  background: $main-color;
+  border-radius: 8px;
+  text-transform: uppercase;
+  color: white;
+  border: 2px solid white;
+
+  &:hover {
+    color: $main-color !important;
+    background: white;
+  }
+}
